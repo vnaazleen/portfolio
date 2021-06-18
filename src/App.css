@@ -9,6 +9,10 @@ a.social {
   color:  white;
 }
 
+.header-text {
+  justify-content: center;
+}
+
 .progress {
   background-color: #d8d8d8;
   border-radius: 20px;

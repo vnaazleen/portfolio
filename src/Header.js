@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Particles from 'react-particles-js';
 import ParticleConfig from "./config/particle-config";
-import SocialFollow from "./SocialFollow"
+import SocialFollow from "./SocialFollow";
+import "./App.css";
 
 function FrontPage() {
     return (
@@ -12,7 +13,7 @@ function FrontPage() {
         		</Particles>
 
         		<ContentBox>
-        			<div>
+        			<div class="header-text">
         				<LineOne>I M</LineOne>
         				<LineTwo>Vaseem Naazleen Shaik</LineTwo>
         				<LineThree>STUDENT | CODER</LineThree>
@@ -35,12 +36,11 @@ const ContentBox = styled.div`
 	margin-left:10%;
 	color: white;
 	position: absolute;
-	font-size: 2em;
 	font-family: cursive;
+	justify-content: center;
 `
 
 const LineOne = styled.div`
-	margin-left:45%;
 	font-size: 3vw;
 `
 
@@ -49,6 +49,5 @@ const LineTwo = styled.div`
 `
 
 const LineThree = styled.div`
-	margin-left:25%;
 	font-size: 4vw;
 `

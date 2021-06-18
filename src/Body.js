@@ -39,7 +39,7 @@ function Body() {
                 <div>
                     <h2> Class XII </h2>
                     <p>Bhashyam Junior College, Andhra Pradesh, India</p>
-                    <p>2017 - 2019 | CGPA : 9.45</p>
+                    <p>2017 - 2019 | GPA : 9.45</p>
                 </div>
             </EduCard>
 
@@ -47,7 +47,7 @@ function Body() {
                 <div>
                     <h2> Class X </h2>
                     <p>Bhashyam Public School, Andhra Pradesh, India</p>
-                    <p>2016 - 2017 | CGPA : 9.5</p>
+                    <p>2016 - 2017 | GPA : 9.5</p>
                 </div>
             </EduCard>
           </Cards>
@@ -69,7 +69,6 @@ function Body() {
 
               <Skill>
                   <h2>Java</h2>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <p><Progress done="70"/></p>
               </Skill>
 
@@ -83,6 +82,12 @@ function Body() {
                   <p><Progress done="60"/></p>
               </Skill>
           </Skills>
+
+          <Projects>
+            <Heading>
+                  <h1>Projects</h1>
+            </Heading>
+          </Projects>
 
         </BodyBox>
     </div>
@@ -170,4 +175,7 @@ const Skill = styled.div`
   {
     flex-direction: column;
   }
+`
+
+const Projects = styled.div`
 `
