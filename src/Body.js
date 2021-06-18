@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import MyImage from './images/naazleen.png'; 
+import Progress from './Progress.js'
 
 function Body() {
   return (
@@ -20,6 +21,69 @@ function Body() {
                  My interests are web development and data science.
               </p>
           </AboutMe>
+
+          <Heading>
+            <h1>Education</h1>
+          </Heading>
+
+          <Cards>
+            <EduCard>
+                <div>
+                    <h2> B.Tech in Computer science </h2>
+                    <p>Vasireddy Venkatadri Institue of Technology, Andhra Pradesh, India</p>
+                    <p>2019 - Present | CGPA : 9.0</p>
+                </div>
+            </EduCard>
+
+            <EduCard>
+                <div>
+                    <h2> Class XII </h2>
+                    <p>Bhashyam Junior College, Andhra Pradesh, India</p>
+                    <p>2017 - 2019 | CGPA : 9.45</p>
+                </div>
+            </EduCard>
+
+            <EduCard>
+                <div>
+                    <h2> Class X </h2>
+                    <p>Bhashyam Public School, Andhra Pradesh, India</p>
+                    <p>2016 - 2017 | CGPA : 9.5</p>
+                </div>
+            </EduCard>
+          </Cards>
+
+          <Skills>
+              <Heading>
+                  <h1>Skills</h1>
+              </Heading>
+
+              <Skill>
+                  <h2>Python</h2>
+                  <p><Progress done="90"/></p>
+              </Skill>
+
+              <Skill>
+                  <h2>C, C++</h2>
+                  <p><Progress done="80"/></p>
+              </Skill>
+
+              <Skill>
+                  <h2>Java</h2>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <p><Progress done="70"/></p>
+              </Skill>
+
+              <Skill>
+                  <h2>Git,SQL</h2>
+                  <p><Progress done="70"/></p>
+              </Skill>
+
+              <Skill>
+                  <h2>HTML, CSS, JS</h2>
+                  <p><Progress done="60"/></p>
+              </Skill>
+          </Skills>
+
         </BodyBox>
     </div>
   );
@@ -36,7 +100,6 @@ const BodyBox = styled.div`
 
 const Heading = styled.div`
     color: #090030;
-    font-family: cursive;
     h1 {
       text-align: center;
     }
@@ -77,4 +140,34 @@ const AboutMe = styled.div`
         width: 70%;
       }
     }
+`
+const Cards = styled.div`
+    padding: 5%;
+`
+
+const EduCard = styled.div`
+    border: 5px solid #090030;
+    background-color: #DAE1E7;
+    padding: 2%;
+    margin: 2%;
+`
+
+const Skills = styled.div`
+`
+
+const Skill = styled.div`
+  display: flex;
+  padding-top: 5%;
+  justify-content: center;
+
+  @media (min-width: 750px) {
+    p {
+      padding-left: 20%;
+    }
+  }
+
+  @media (max-width: 700px)
+  {
+    flex-direction: column;
+  }
 `
