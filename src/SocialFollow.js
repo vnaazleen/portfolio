@@ -15,15 +15,15 @@ export default function SocialFollow() {
     <div class="social-container">
         <SocialFollowBox>
 
-        <a href="https://twitter.com/NaazleenShaik" className="twitter social">
+        <a href="https://twitter.com/NaazleenShaik" target='_blank' className="twitter social">
         <FontAwesomeIcon icon={faTwitter} />
         </a>
 
-        <a href="https://github.com/vnaazleen" className="github social">
+        <a href="https://github.com/vnaazleen" target='_blank' className="github social">
         <FontAwesomeIcon icon={faGithub} />
         </a>
 
-        <a href="https://www.linkedin.com/in/vaseem-naazleen/" className="linkedin social">
+        <a href="https://www.linkedin.com/in/vaseem-naazleen/" target='_blank' className="linkedin social">
         <FontAwesomeIcon icon={faLinkedin} />
         </a>
 

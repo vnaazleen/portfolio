@@ -2,6 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import MyImage from './images/naazleen.png'; 
 import Progress from './Progress.js'
+import ProjectCard1 from './ProjectCard1.js';
+import ProjectCard2 from './ProjectCard2.js';
+import ProjectCard3 from './ProjectCard3.js';
+import './App.css';
 
 function Body() {
   return (
@@ -22,9 +26,11 @@ function Body() {
               </p>
           </AboutMe>
 
-          <Heading>
+          <Education>
+
+          <Heading2>
             <h1>Education</h1>
-          </Heading>
+          </Heading2>
 
           <Cards>
             <EduCard>
@@ -51,6 +57,8 @@ function Body() {
                 </div>
             </EduCard>
           </Cards>
+
+          </Education>
 
           <Skills>
               <Heading>
@@ -84,9 +92,20 @@ function Body() {
           </Skills>
 
           <Projects>
-            <Heading>
+            <Heading2>
                   <h1>Projects</h1>
-            </Heading>
+            </Heading2>
+            <ProjectCards>
+              <ProjectCard>
+                <ProjectCard1/>
+              </ProjectCard>
+              <ProjectCard>
+                <ProjectCard2/>
+              </ProjectCard>
+              <ProjectCard>
+                <ProjectCard3/>
+              </ProjectCard>
+            </ProjectCards>
           </Projects>
 
         </BodyBox>
@@ -98,8 +117,6 @@ function Body() {
 export default Body;
 
 const BodyBox = styled.div`
-    max-width:90%;
-    margin: 0 auto;
     margin-top: 20px;
 `
 
@@ -112,7 +129,10 @@ const Heading = styled.div`
 `
 
 const AboutMe = styled.div`
+    max-width:90%;
+    margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 40px;
     display: flex;
 
     p {
@@ -146,6 +166,18 @@ const AboutMe = styled.div`
       }
     }
 `
+const Education = styled.div`
+    background-color: #090030;
+`
+
+const Heading2 = styled.div`
+    color: #FFFFFF;
+    h1 {
+      text-align: center;
+    }
+    padding-top: 20px;
+`
+
 const Cards = styled.div`
     padding: 5%;
 `
@@ -158,6 +190,9 @@ const EduCard = styled.div`
 `
 
 const Skills = styled.div`
+  padding-bottom: 70px;
+  max-width:90%;
+  margin: 0 auto;
 `
 
 const Skill = styled.div`
@@ -178,4 +213,22 @@ const Skill = styled.div`
 `
 
 const Projects = styled.div`
+    background-color: #090030;
+`
+
+const ProjectCards = styled.div`
+  display: flex;
+  max-width:90%;
+  margin: 0 auto;
+
+  @media (max-width: 1000px)
+  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`
+
+const ProjectCard = styled.div`
+  padding: 5%;
 `
