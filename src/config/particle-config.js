@@ -6,7 +6,7 @@ const particlesConfig = {
   },
   particles: {
     number: {
-      value: 100,
+      value: 70,
       density: {
         enable: true,
         value_area: 800
@@ -76,7 +76,7 @@ const particlesConfig = {
     detect_on: "window",
     events: {
       onhover: {
-        enable: false,
+        enable: true,
         mode: "repulse"
       },
       onclick: {
@@ -100,7 +100,7 @@ const particlesConfig = {
         speed: 3
       },
       repulse: {
-        distance: 200,
+        distance: 100,
         duration: 0.4
       },
       push: {

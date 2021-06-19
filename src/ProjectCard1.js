@@ -41,10 +41,10 @@ export default function ProjectCard1() {
         <Button 
           href="https://github.com/vnaazleen/NeuralArt-Website"
           size="small" 
-          color="primary"
+          color="#090030"
           target='_blank' 
           >
-          View Project
+          <b>View Project</b>
         </Button>
       </CardActions>
     </Card>

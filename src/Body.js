@@ -180,8 +180,7 @@ const AboutMe = styled.div`
 
     p {
       font-size: 1vm;
-      color: #6E7C7C;
-      text-align: center;
+      color: #090030;
       padding-left: 5%;
       padding-top: 7%;
     }
