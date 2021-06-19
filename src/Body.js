@@ -168,7 +168,6 @@ const AboutMe = styled.div`
 
     p {
       font-size: 1vm;
-      font-family: cursive;
       color: #6E7C7C;
       text-align: center;
       padding-left: 5%;
