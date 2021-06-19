@@ -134,6 +134,16 @@ function Body() {
             </ProjectCards>
           </Projects>
 
+          <Heading>
+                  <h1>Contact Me!</h1>
+          </Heading>
+
+          <ContactMe>
+            <Form>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJy3LHSFf5ksGSvgAO8BoCoijIlI6NeGasO3h2unqMlzZYUA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </Form>
+          </ContactMe>
+
 
           <End>
               <p> Made with ❤, By Naazleen </p>
@@ -307,4 +317,14 @@ const End = styled.div`
     }
     padding-top: 25px;
     padding-bottom: 25px;
+`
+
+const ContactMe = styled.div`
+  padding-top: 5%;
+  align-items: center;
+  justify-content center;
+`
+
+const Form = styled.div`
+  overflow: hidden;
 `
