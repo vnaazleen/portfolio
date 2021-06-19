@@ -103,6 +103,7 @@ function Body() {
                     <img src={WTMLogo} alt="WTEF image"/>
                     <div>
                         <h1>Women Techmakers Engineering Fellow</h1>
+                        <p>2019 - Present</p>
                         <p>Selected as one of the 126 participants out of 15,000 applicants in the Women TechMakers Engineering Fellows initiative by Google and TalentSprint. This is a 2 years program, combination of boot camps, live online classes, ongoing mentorship, certification, and team-based projects to enhance problem-solving and computational thinking.</p>
                     </div>
                 </ExperienceCard>
@@ -111,6 +112,7 @@ function Body() {
                     <img src={WiproLogo} alt="Wipro image"/>
                     <div>
                         <h1>Wipro Talent Next Trainee, 2021</h1>
+                        <p>2021 - Present</p>
                         <p>I am selected as a trainee under the Wipro program named as "TalentNext - FutureSkill 2021".</p>
                     </div>
                 </ExperienceCard>
