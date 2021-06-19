@@ -134,6 +134,11 @@ function Body() {
             </ProjectCards>
           </Projects>
 
+
+          <End>
+              <p> Made with ❤, By Naazleen </p>
+          </End>
+
         </BodyBox>
     </div>
   );
@@ -293,4 +298,14 @@ const ExperienceCard = styled.div`
     justify-content: center;
     align-items: center;
   }
+`
+
+const End = styled.div`
+    background-color: #090030;
+    color: #DAE1E7;
+    p {
+      text-align: center;
+    }
+    padding-top: 25px;
+    padding-bottom: 25px;
 `
