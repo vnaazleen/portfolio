@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import MyImage from './images/naazleen.png'; 
+import WTMLogo from './images/wtm_logo.jpeg'; 
+import WiproLogo from  './images/wipro_logo.PNG'; 
 import Progress from './Progress.js'
 import ProjectCard1 from './ProjectCard1.js';
 import ProjectCard2 from './ProjectCard2.js';
@@ -17,7 +19,7 @@ function Body() {
           <AboutMe>
               <img src={MyImage} alt="my image" />
               <p>
-                Hi! I'm Vaseem Naazleen Shaik. You may know me as Naazleen. 
+                Hi! I'm Vaseem Naazleen. You may know me as Naazleen. 
                 Some special people might even know me as Naaz. 
                 I am currently a second-year student of Computer Science 
                 and I got introduced to the world of coding more than 2 years ago.
@@ -91,10 +93,34 @@ function Body() {
               </Skill>
           </Skills>
 
+          <Experiences>
+              <Heading2>
+                  <h1>Experience</h1>
+              </Heading2>
+
+              <ExperienceCards>
+                <ExperienceCard>
+                    <img src={WTMLogo} alt="WTEF image"/>
+                    <div>
+                        <h1>Women Techmakers Engineering Fellow</h1>
+                        <p>Selected as one of the 126 participants out of 15,000 applicants in the Women TechMakers Engineering Fellows initiative by Google and TalentSprint. This is a 2 years program, combination of boot camps, live online classes, ongoing mentorship, certification, and team-based projects to enhance problem-solving and computational thinking.</p>
+                    </div>
+                </ExperienceCard>
+
+                <ExperienceCard>
+                    <img src={WiproLogo} alt="Wipro image"/>
+                    <div>
+                        <h1>Wipro Talent Next Trainee, 2021</h1>
+                        <p>I am selected as a trainee under the Wipro program named as "TalentNext - FutureSkill 2021"..</p>
+                    </div>
+                </ExperienceCard>
+              </ExperienceCards>
+          </Experiences>
+
           <Projects>
-            <Heading2>
+            <Heading>
                   <h1>Projects</h1>
-            </Heading2>
+            </Heading>
             <ProjectCards>
               <ProjectCard>
                 <ProjectCard1/>
@@ -117,7 +143,7 @@ function Body() {
 export default Body;
 
 const BodyBox = styled.div`
-    margin-top: 20px;
+    background-color: #DAE1E7;
 `
 
 const Heading = styled.div`
@@ -175,7 +201,7 @@ const Heading2 = styled.div`
     h1 {
       text-align: center;
     }
-    padding-top: 20px;
+    padding-top: 50px;
 `
 
 const Cards = styled.div`
@@ -213,7 +239,6 @@ const Skill = styled.div`
 `
 
 const Projects = styled.div`
-    background-color: #090030;
 `
 
 const ProjectCards = styled.div`
@@ -231,4 +256,41 @@ const ProjectCards = styled.div`
 
 const ProjectCard = styled.div`
   padding: 5%;
+`
+
+const Experiences = styled.div`
+  justify-content: center;
+  background-color: #090030;
+`
+
+const ExperienceCards = styled.div`
+  max-width:90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+`
+
+const ExperienceCard = styled.div`
+  display: flex;
+  border: 10px solid #090030;
+  background-color: #DAE1E7;
+  padding: 2%;
+  margin: 2%;
+  img {
+      height: 120px;
+  }
+
+  div {
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+  }
+
+  @media (max-width: 900px)
+  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `

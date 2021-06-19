@@ -29,6 +29,7 @@ function FrontPage() {
 export default FrontPage;
 
 const HeaderBox = styled.div`
+	background-color: #DAE1E7;
 `
 
 const ContentBox = styled.div`
