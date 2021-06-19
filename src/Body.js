@@ -111,7 +111,7 @@ function Body() {
                     <img src={WiproLogo} alt="Wipro image"/>
                     <div>
                         <h1>Wipro Talent Next Trainee, 2021</h1>
-                        <p>I am selected as a trainee under the Wipro program named as "TalentNext - FutureSkill 2021"..</p>
+                        <p>I am selected as a trainee under the Wipro program named as "TalentNext - FutureSkill 2021".</p>
                     </div>
                 </ExperienceCard>
               </ExperienceCards>
@@ -171,7 +171,7 @@ const AboutMe = styled.div`
       font-family: cursive;
       color: #6E7C7C;
       text-align: center;
-      padding-left: 20px;
+      padding-left: 5%;
       padding-top: 7%;
     }
 
