@@ -14,7 +14,7 @@ function Body() {
     <div>
         <BodyBox>
           <Heading>
-            <h1>About Me</h1>
+            <h1 id="about">About Me</h1>
           </Heading>
           <AboutMe>
               <img src={MyImage} alt="my image" />
@@ -209,6 +209,7 @@ const AboutMe = styled.div`
 `
 const Education = styled.div`
     background-color: #090030;
+    color: 090030;
 `
 
 const Heading2 = styled.div`
@@ -225,9 +226,11 @@ const Cards = styled.div`
 
 const EduCard = styled.div`
     border: 5px solid #090030;
+    color: 090030;
     background-color: #DAE1E7;
     padding: 2%;
     margin: 2%;
+    border-radius: 20px;
 `
 
 const Skills = styled.div`
@@ -284,12 +287,14 @@ const ExperienceCards = styled.div`
   display: flex;
   flex-direction: column;
   padding: 5%;
+  color: 090030;
 `
 
 const ExperienceCard = styled.div`
   display: flex;
   border: 10px solid #090030;
   background-color: #DAE1E7;
+  border-radius: 20px;
   padding: 2%;
   margin: 2%;
   img {

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Particles from 'react-particles-js';
 import ParticleConfig from "./config/particle-config";
 import SocialFollow from "./SocialFollow";
+import DownArrow from './images/down_arrow.png'; 
 import "./App.css";
 
 function FrontPage() {
@@ -19,6 +20,12 @@ function FrontPage() {
         				<LineThree>STUDENT | CODER</LineThree>
 
         				<SocialFollow/>
+        			</div>
+
+        			<div class="down-arrow">
+        				<a href="#about">
+        					<img src={DownArrow} alt=""/>
+        				</a>
         			</div>
         		</ContentBox>
         	</HeaderBox>
@@ -37,8 +44,13 @@ const ContentBox = styled.div`
 	margin-left:10%;
 	color: white;
 	position: absolute;
-	font-family: cursive;
 	justify-content: center;
+
+	img {
+		height: 3vw;
+		margin-left:45%;
+		margin-top: 5%;
+	}
 `
 
 const LineOne = styled.div`

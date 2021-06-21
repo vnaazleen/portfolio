@@ -13,6 +13,10 @@ a.social {
   justify-content: center;
 }
 
+.down-arrow {
+  justify-content: center;
+}
+
 .progress {
   background-color: #d8d8d8;
   border-radius: 20px;
