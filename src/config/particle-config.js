@@ -1,9 +1,4 @@
 const particlesConfig = {
-  background: {
-      color: {
-        value: "#090030",
-      },
-  },
   particles: {
     number: {
       value: 70,

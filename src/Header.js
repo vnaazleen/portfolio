@@ -8,7 +8,7 @@ import "./App.css";
 
 function FrontPage() {
     return (
-        <div>
+        <div className='Header'>
         	<HeaderBox>        	
         		<Particles params={ParticleConfig}>
         		</Particles>
@@ -36,7 +36,7 @@ function FrontPage() {
 export default FrontPage;
 
 const HeaderBox = styled.div`
-	background-color: #DAE1E7;
+    background-image: linear-gradient(to right, #0652C5 , #D4418E);
 `
 
 const ContentBox = styled.div`

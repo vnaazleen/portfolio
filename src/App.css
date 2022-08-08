@@ -27,8 +27,8 @@ a.social {
 }
 
 .progress-done {
-  background: linear-gradient(to left, #090030, #142850);
-  box-shadow: 0 3px 3px -5px #090030, 0 2px 5px #142850;
+  background: linear-gradient(to left, #E975A8, #726CF8);
+  box-shadow: 0 3px 3px -5px #E975A8, 0 2px 5px #726CF8;
   border-radius: 20px;
   color: #fff;
   display: flex;
@@ -42,11 +42,11 @@ a.social {
 
 ::-moz-selection { /* Code for Firefox */
   color: white;
-  background: #090030;
+  background: #deaff5;
   
 }
 
 ::selection {
   color: white;
-  background: #142850;
+  background: #deaff5;
 }

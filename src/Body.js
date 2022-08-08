@@ -1,12 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import MyImage from './images/naazleen.png'; 
+import MyImage from './images/google_cap_pic.jpeg'; 
 import WTMLogo from './images/wtm_logo.jpeg'; 
-import WiproLogo from  './images/wipro_logo.PNG'; 
+import GoogleLogo from  './images/google.png'; 
 import Progress from './Progress.js'
 import ProjectCard1 from './ProjectCard1.js';
 import ProjectCard2 from './ProjectCard2.js';
 import ProjectCard3 from './ProjectCard3.js';
+import ProjectCard4 from './ProjectCard4.js';
+import ProjectCard5 from './ProjectCard5.js';
+
 import './App.css';
 
 function Body() {
@@ -17,15 +20,13 @@ function Body() {
             <h1 id="about">About Me</h1>
           </Heading>
           <AboutMe>
-              <img src={MyImage} alt="my image" />
               <p>
-                Hi! I'm Vaseem Naazleen. You may know me as Naazleen. 
-                Some special people might even know me as Naaz. 
-                I am currently a second-year student of Computer Science 
-                and I got introduced to the world of coding more than 2 years ago.
-                 I enjoy solving puzzles and taking part in coding competitions. 
-                 My interests are web development and data science.
-              </p>
+                Hey there! I am Naazleen, a final year student, pursuing my bachelor's 
+                degree in Computer Science at Vasireddy Venkatadri Institue of Technology(VVIT).
+                I have been a part of Women Techmakers Engineering Fellows program, by Talent sprint and supported by Google.
+                I interned at Google for Summer 2022, worked with Flex (Resource and Infrastructure Optimzation team) and built
+                a tracing tool which helps SRE's in debugging complicated request call flows. I enjoy solving problems, learning new technologies and
+                building cool projects. While I am not thinking about code, I usually spend time with my family and friends. </p>
           </AboutMe>
 
           <Education>
@@ -99,21 +100,28 @@ function Body() {
               </Heading2>
 
               <ExperienceCards>
-                <ExperienceCard>
-                    <img src={WTMLogo} alt="WTEF image"/>
+
+
+              <ExperienceCard>
+                    <img src={GoogleLogo} alt="Google image"/>
                     <div>
-                        <h1>Women Techmakers Engineering Fellow</h1>
-                        <p>2019 - Present</p>
-                        <p>Selected as one of the 126 participants out of 15,000 applicants in the Women TechMakers Engineering Fellows initiative by Google and TalentSprint. This is a 2 years program, combination of boot camps, live online classes, ongoing mentorship, certification, and team-based projects to enhance problem-solving and computational thinking.</p>
+                        <h1>SWE Intern, Google</h1>
+                        <p>May - July 2022</p>
+                        <ul>
+                          <li> Worked with Flex(Resource & Infrastructure Optimization Technology) Team</li>
+                          <li>Built a visualization tool that improves Traceability across the systems, enables to perform request-level debugging, gives a high-level architectural view of system calls flow and dependencies, enables monitoring of the System Reliability by defining System Health.</li>
+                          <li>This tool helps SREs and on-callers to have better visibility of system performance, observe traffic patterns, and helps in debugging the complicated request call flows.</li>
+                          <li>Learnt various internal tools and technologies like Building RPC services, Protocol buffers, JUnit, Mockito, Guice DI frameworks, Datastores, D3.js library and many core java libraries.</li>
+                        </ul>
                     </div>
                 </ExperienceCard>
 
                 <ExperienceCard>
-                    <img src={WiproLogo} alt="Wipro image"/>
+                    <img src={WTMLogo} alt="WTEF image"/>
                     <div>
-                        <h1>Wipro Talent Next Trainee, 2021</h1>
-                        <p>2021 - Present</p>
-                        <p>I am selected as a trainee under the Wipro program named as "TalentNext - FutureSkill 2021".</p>
+                        <h1>Women Techmakers Engineering Fellow</h1>
+                        <p>2019 - 2022</p>
+                        <p>Selected as one of the 126 participants out of 15,000 applicants in the Women TechMakers Engineering Fellows initiative by Google and TalentSprint. This is a 2 years program, combination of boot camps, live online classes, ongoing mentorship, certification, and team-based projects to enhance problem-solving and computational thinking.</p>
                     </div>
                 </ExperienceCard>
               </ExperienceCards>
@@ -132,6 +140,14 @@ function Body() {
               </ProjectCard>
               <ProjectCard>
                 <ProjectCard3/>
+              </ProjectCard>
+            </ProjectCards>
+            <ProjectCards>
+              <ProjectCard>
+                <ProjectCard4/>
+              </ProjectCard>
+              <ProjectCard>
+                <ProjectCard5/>
               </ProjectCard>
             </ProjectCards>
           </Projects>
@@ -160,74 +176,50 @@ function Body() {
 export default Body;
 
 const BodyBox = styled.div`
-    background-color: #DAE1E7;
+    background-color: white;
 `
 
 const Heading = styled.div`
-    color: #090030;
+    color: #612897;
     h1 {
       text-align: center;
     }
-    padding-top: 50px;
+    padding-top: 30px;
 `
 
 const AboutMe = styled.div`
     max-width:90%;
     margin: 0 auto;
-    padding-top: 50px;
     padding-bottom: 40px;
     display: flex;
 
     p {
       font-size: 1vm;
-      color: #090030;
       padding-left: 5%;
-      padding-top: 7%;
-    }
-
-    img {
-      width: 25%;
-      height: 25%
-      flex-basis: 40%
-    }
-
-    @media (max-width: 700px)
-    {
-      flex-direction: column;
-      align-items: center;
-      img {
-        padding-bottom: 20px;
-      }
-    }
-
-    @media (max-width: 700px)
-    {
-      img {
-        width: 70%;
-      }
+      padding-top: 30px;
     }
 `
 const Education = styled.div`
-    background-color: #090030;
-    color: 090030;
 `
 
 const Heading2 = styled.div`
-    color: #FFFFFF;
+    color: #612897;
     h1 {
       text-align: center;
     }
-    padding-top: 50px;
 `
 
 const Cards = styled.div`
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 `
 
 const EduCard = styled.div`
-    border: 5px solid #090030;
-    color: 090030;
-    background-color: #DAE1E7;
+    border: 5px solid #8946A6;
+    color: #090030;
+    background-color: #F4BEEE;
     padding: 2%;
     margin: 2%;
     border-radius: 20px;
@@ -237,6 +229,7 @@ const Skills = styled.div`
   padding-bottom: 70px;
   max-width:90%;
   margin: 0 auto;
+  color: #612897;
 `
 
 const Skill = styled.div`
@@ -263,6 +256,7 @@ const ProjectCards = styled.div`
   display: flex;
   max-width:90%;
   margin: 0 auto;
+  padding-top: 10px;
 
   @media (max-width: 1000px)
   {
@@ -273,12 +267,14 @@ const ProjectCards = styled.div`
 `
 
 const ProjectCard = styled.div`
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 `
 
 const Experiences = styled.div`
   justify-content: center;
-  background-color: #090030;
 `
 
 const ExperienceCards = styled.div`
@@ -286,16 +282,19 @@ const ExperienceCards = styled.div`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: 090030;
 `
 
 const ExperienceCard = styled.div`
   display: flex;
-  border: 10px solid #090030;
-  background-color: #DAE1E7;
+  border: 5px solid #8946A6;
+  background-color: #F4BEEE;
   border-radius: 20px;
-  padding: 2%;
+  padding: 3%;
   margin: 2%;
   img {
       height: 120px;
@@ -316,7 +315,7 @@ const ExperienceCard = styled.div`
 `
 
 const End = styled.div`
-    background-color: #090030;
+    background-color: #612897;
     color: #DAE1E7;
     p {
       text-align: center;
@@ -326,7 +325,7 @@ const End = styled.div`
 `
 
 const ContactMe = styled.div`
-  padding-top: 5%;
+  padding-top: 30px;
   align-items: center;
   justify-content center;
 `
