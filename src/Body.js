@@ -21,13 +21,12 @@ function Body() {
           </Heading>
           <AboutMe>
               <p>
-                Hey there! I am Naazleen, a final year student, pursuing my bachelor's 
-                degree in Computer Science at Vasireddy Venkatadri Institue of Technology(VVIT).
-                I have been a part of Women Techmakers Engineering Fellows program, by Talent sprint and supported by Google.
-                I interned at Google for Summer 2022, worked with Flex (Resource and Infrastructure Optimzation team) and built
-                a tracing tool which helps SRE's in debugging complicated request call flows. I enjoy solving problems, learning new technologies and
-                building cool projects. While I am not thinking about code, I usually spend time with my family and friends. </p>
-          </AboutMe>
+              Hey there! I am Naazleen, a final-year student pursuing my bachelor's degree in Computer Science at Vasireddy Venkatadri Institue of Technology(VVIT). 
+              I have been a part of the Women Techmakers Engineering Fellows program by Talent sprint and supported by Google.
+              I interned at Google for Summer 2022, worked with Flex (Resource and Infrastructure Optimization) team, and built a tracing tool that helps SREs debug complicated request call flows. I enjoy solving problems, learning new technologies, and building cool projects. 
+              When I am not thinking about code, I usually spend time with my family and friends.
+              </p>
+              </AboutMe>
 
           <Education>
 
