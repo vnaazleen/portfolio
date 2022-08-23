@@ -66,31 +66,57 @@ function Body() {
               <Heading>
                   <h1>Skills</h1>
               </Heading>
-
+              <center><table>
+                <tr>
               <Skill>
-                  <h2>Python</h2>
-                  <p><Progress done="90"/></p>
+                  <td><h2>Python</h2></td>
+                  <td><p><Progress done="90"/></p></td>
               </Skill>
+              </tr>
 
+              <tr>
+                <Skill>
+                  <td><h2>C, C++</h2></td>
+                  <td><p><Progress done="90"/></p></td>
+                </Skill>
+              </tr>
+              <tr>
               <Skill>
-                  <h2>C, C++</h2>
-                  <p><Progress done="80"/></p>
+                <td><h2>Java</h2></td>
+                <td><p><Progress done="85"/></p></td>
               </Skill>
-
+              </tr>
+              <tr>
               <Skill>
-                  <h2>Java</h2>
-                  <p><Progress done="70"/></p>
+                <td><h2>SQL</h2></td>
+                <td><p><Progress done="80"/></p></td>
               </Skill>
-
+              </tr>
+              <tr>
               <Skill>
-                  <h2>Git,SQL</h2>
-                  <p><Progress done="70"/></p>
+                <td><h2>HTML, CSS, JS</h2></td>
+                <td><p><Progress done="85"/></p></td>
               </Skill>
-
+              </tr>
+              <tr>
               <Skill>
-                  <h2>HTML, CSS, JS</h2>
-                  <p><Progress done="60"/></p>
+                <td><h2>ReactJs and AngularJs</h2></td>
+                <td><p><Progress done="65"/></p></td>
               </Skill>
+              </tr>
+              <tr>
+              <Skill>
+                <td><h2>Spring boot</h2></td>
+                <td><p><Progress done="60"/></p></td>
+              </Skill>
+              </tr>
+              <tr>
+              <Skill>
+                <td><h2>Git/GitHub</h2></td>
+                <td><p><Progress done="90"/></p></td>
+              </Skill>
+              </tr>
+              </table></center>
           </Skills>
 
           <Experiences>
@@ -229,12 +255,15 @@ const Skills = styled.div`
   max-width:90%;
   margin: 0 auto;
   color: #612897;
+
+  td {
+    width: 50%;
+  }
 `
 
 const Skill = styled.div`
   display: flex;
-  padding-top: 5%;
-  justify-content: center;
+  padding-top: 2%;
 
   @media (min-width: 750px) {
     p {
