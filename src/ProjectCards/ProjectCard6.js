@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import AlgoVisImage from './images/algo_visualizer.PNG'; 
+import ChurnImage from '../images/churn.png'; 
 
 const useStyles = makeStyles({
   root: {
@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ProjectCard2() {
+export default function ProjectCard5() {
   const classes = useStyles();
 
   return (
@@ -24,23 +24,23 @@ export default function ProjectCard2() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Algo Visualizer"
+          alt=""
           height="200"
-          image={AlgoVisImage}
-          title="Algo Visualizer"
+          image={ChurnImage}
+          title="ChurnImage"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Algo Visualizer
+            Telecom Churn Prediction
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            A webiste to visualize various path-finding algorithms
-          </Typography>
+          Using ML Algorithms to Predict Customer Churn
+        </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button 
-          href="https://github.com/vnaazleen/algo-visualizer"
+          href="https://github.com/vnaazleen/teleco-churn-prediction"
           size="small" 
           color="#090030"
           target='_blank'>

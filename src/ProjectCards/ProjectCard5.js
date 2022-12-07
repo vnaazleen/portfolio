@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import AlumniProjectImage from './images/alumni_project.png'; 
+import InstrumentDelightImage from '../images/instrument_delight.png'; 
 
 const useStyles = makeStyles({
   root: {
@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ProjectCard4() {
+export default function ProjectCard5() {
   const classes = useStyles();
 
   return (
@@ -24,23 +24,23 @@ export default function ProjectCard4() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt="Alumni-Connect portfolio"
+          alt=""
           height="200"
-          image={AlumniProjectImage}
-          title="Alumni Connect"
+          image={InstrumentDelightImage}
+          title="InstrumentDelightImage"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Alumni Connect
+            Instrument Delight
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            College alumni website to keep alumni connected with college
-          </Typography>
+          Instrument Delight is an online web application, product that can be catering to various customers who require purchasing musical instruments.
+        </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button 
-          href="https://github.com/AbdulMuheeth/vvit-alumni-connect"
+          href="https://github.com/vnaazleen/instrument-delight"
           size="small" 
           color="#090030"
           target='_blank'>

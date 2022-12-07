@@ -4,11 +4,14 @@ import MyImage from './images/google_cap_pic.jpeg';
 import WTMLogo from './images/wtm_logo.jpeg'; 
 import GoogleLogo from  './images/google.png'; 
 import Progress from './Progress.js'
-import ProjectCard1 from './ProjectCard1.js';
-import ProjectCard2 from './ProjectCard2.js';
-import ProjectCard3 from './ProjectCard3.js';
-import ProjectCard4 from './ProjectCard4.js';
-import ProjectCard5 from './ProjectCard5.js';
+import ProjectCard1 from './ProjectCards/ProjectCard1.js';
+import ProjectCard2 from './ProjectCards/ProjectCard2.js';
+import ProjectCard3 from './ProjectCards/ProjectCard3.js';
+import ProjectCard4 from './ProjectCards/ProjectCard4.js';
+import ProjectCard5 from './ProjectCards/ProjectCard5.js';
+import ProjectCard6 from './ProjectCards/ProjectCard6.js';
+import ProjectCard7 from './ProjectCards/ProjectCard7.js';
+
 
 import './App.css';
 
@@ -174,6 +177,14 @@ function Body() {
               <ProjectCard>
                 <ProjectCard5/>
               </ProjectCard>
+              <ProjectCard>
+                <ProjectCard6/>
+              </ProjectCard>
+            </ProjectCards>
+            <ProjectCards>
+              <ProjectCard>
+                <ProjectCard7/>
+              </ProjectCard>
             </ProjectCards>
           </Projects>
 
@@ -257,7 +268,7 @@ const Skills = styled.div`
   color: #612897;
 
   td {
-    width: 50%;
+    width: 40%;
   }
 `
 
@@ -295,8 +306,8 @@ const ProjectCards = styled.div`
 `
 
 const ProjectCard = styled.div`
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
   padding-top: 20px;
   padding-bottom: 20px;
 `

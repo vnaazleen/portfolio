@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import InstrumentDelightImage from './images/instrument_delight.png'; 
+import PortfolioImage from '../images/portfolio.png'; 
 
 const useStyles = makeStyles({
   root: {
@@ -15,7 +15,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ProjectCard5() {
+export default function ProjectCard2() {
   const classes = useStyles();
 
   return (
@@ -24,23 +24,23 @@ export default function ProjectCard5() {
       <CardActionArea>
         <CardMedia
           component="img"
-          alt=""
+          alt="Personal portfolio"
           height="200"
-          image={InstrumentDelightImage}
-          title="InstrumentDelightImage"
+          image={PortfolioImage}
+          title="Personal portfolio"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Instrument Delight
+            Portfolio
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Instrument Delight is an online web application, product that can be catering to various customers who require purchasing musical instruments.
-        </Typography>
+            Personal portfolio website, know more about me :)
+          </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button 
-          href="https://github.com/vnaazleen/instrument-delight"
+          href="https://github.com/vnaazleen/portfolio-1"
           size="small" 
           color="#090030"
           target='_blank'>
