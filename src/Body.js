@@ -25,13 +25,13 @@ function Body() {
           <AboutMe>
               <p>
                 Hey! I’m Naazleen — a Software Engineer at Google with two years of experience in the Cloud (CBS) org, where I work on building efficient and effortless resource management systems for Google-scale infrastructure.
-                <br/>
+                <br/><br/>
                 I work across the stack — from designing backend services to creating intuitive frontends — with a focus on building reliable, scalable, and impactful products. I’ve worked with technologies like Go, Java, TypeScript, and Python, and I’m currently deepening my understanding of system design to craft solutions that truly scale.
-                <br/>
+                <br/><br/>
                 I’m also a big believer in leveraging AI to make life simpler — whether it’s automating repetitive tasks or optimizing how I work so I can spend more time on what really matters: problem-solving.
-                <br/>
+                <br/><br/>
                 Funny thing — I wasn’t a “techie kid.” I initially got into tech for the money, but somewhere along the way, I fell in love with the craft, the creativity, and the endless potential it holds.
-                <br/>
+                <br/><br/>
                 Outside of work, you’ll usually find me creating art, reading all sorts of books, exploring new food, or catching up on sleep. I’m not a sports person, but there’s still that little part of me that dreams of keeping that spark from childhood alive.
               </p>
               </AboutMe>
