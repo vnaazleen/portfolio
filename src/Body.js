@@ -24,10 +24,15 @@ function Body() {
           </Heading>
           <AboutMe>
               <p>
-              Hey there! I am Naazleen, a final-year student pursuing my bachelor's degree in Computer Science at Vasireddy Venkatadri Institue of Technology(VVIT). 
-              I have been a part of the Women Techmakers Engineering Fellows program by Talent sprint and supported by Google.
-              I interned at Google for Summer 2022, worked with Flex (Resource and Infrastructure Optimization) team, and built a tracing tool that helps SREs debug complicated request call flows. I enjoy solving problems, learning new technologies, and building cool projects. 
-              When I am not thinking about code, I usually spend time with my family and friends.
+                Hey! I’m Naazleen — a Software Engineer at Google with two years of experience in the Cloud (CBS) org, where I work on building efficient and effortless resource management systems for Google-scale infrastructure.
+                <br/>
+                I work across the stack — from designing backend services to creating intuitive frontends — with a focus on building reliable, scalable, and impactful products. I’ve worked with technologies like Go, Java, TypeScript, and Python, and I’m currently deepening my understanding of system design to craft solutions that truly scale.
+                <br/>
+                I’m also a big believer in leveraging AI to make life simpler — whether it’s automating repetitive tasks or optimizing how I work so I can spend more time on what really matters: problem-solving.
+                <br/>
+                Funny thing — I wasn’t a “techie kid.” I initially got into tech for the money, but somewhere along the way, I fell in love with the craft, the creativity, and the endless potential it holds.
+                <br/>
+                Outside of work, you’ll usually find me creating art, reading all sorts of books, exploring new food, or catching up on sleep. I’m not a sports person, but there’s still that little part of me that dreams of keeping that spark from childhood alive.
               </p>
               </AboutMe>
 
