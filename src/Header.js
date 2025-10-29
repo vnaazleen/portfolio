@@ -17,7 +17,7 @@ function FrontPage() {
         			<div class="header-text">
         				<LineOne>I M</LineOne>
         				<LineTwo>Vaseem Naazleen Shaik</LineTwo>
-        				<LineThree>STUDENT | CODER</LineThree>
+        				<LineThree>Software Engineer at Google</LineThree>
 
         				<SocialFollow/>
         			</div>
